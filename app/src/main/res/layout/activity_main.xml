@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/BG"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lonceng"
+        android:layout_alignParentRight="true"
+        android:layout_marginVertical="25dp"
+        android:layout_marginRight="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Bg2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/bg2"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/budi"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="110dp"
+        android:id="@+id/budi"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/scan"
+        android:layout_alignParentRight="true"
+        android:layout_marginVertical="110dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginRight="30dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Budi Doremi"
+        android:textSize="16dp"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginVertical="120dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fyz 123"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginVertical="140dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/send"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="180dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/receive"
+        android:layout_marginVertical="180dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iconsend"
+        android:layout_marginVertical="190dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send File"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_marginVertical="190dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="100dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iconreceive"
+        android:layout_marginVertical="190dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="220dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receive File"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_marginVertical="190dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="250dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bg2"
+        android:layout_centerInParent="true"
+        android:layout_marginVertical="20dp"
+        android:src="@drawable/Bg3"
+        android:id="@+id/bg3"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iconfile_s"
+        android:layout_marginVertical="260dp"
+        android:layout_marginLeft="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FileSharing Web"
+        android:textStyle="bold"
+        android:layout_marginVertical="260dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="100dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Easiest way to transfer from pc. no boundary"
+        android:textSize="12dp"
+        android:layout_marginVertical="280dp"
+        android:layout_marginLeft="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favourite Friends"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginVertical="330dp"
+        android:layout_marginLeft="30dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/squere1"
+        android:layout_below="@+id/bg3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginVertical="30dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/David"
+        android:layout_below="@id/bg3"
+        android:layout_marginLeft="45dp"
+        android:layout_marginVertical="35dp"
+        android:id="@+id/David" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="David"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="440dp"
+        android:layout_marginLeft="65dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/squere1"
+        android:layout_below="@id/bg3"
+        android:layout_marginLeft="170dp"
+        android:layout_marginVertical="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Jesicca"
+        android:layout_below="@id/bg3"
+        android:layout_marginLeft="190dp"
+        android:layout_marginVertical="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jesica"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="440dp"
+        android:layout_marginLeft="200dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/squere1"
+        android:layout_below="@id/bg3"
+        android:layout_marginLeft="300dp"
+        android:layout_marginVertical="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Diego"
+        android:layout_below="@id/bg3"
+        android:layout_marginLeft="320dp"
+        android:layout_marginVertical="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diego"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="440dp"
+        android:layout_marginLeft="340dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latest Activities"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="480dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See All"
+        android:textSize="16dp"
+        android:layout_marginVertical="485dp"
+        android:layout_marginLeft="320dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg5"
+        android:layout_below="@+id/David"
+        android:paddingVertical="35dp"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/bg5"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/david2"
+        android:layout_marginVertical="515dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receive From David"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="515dp"
+        android:layout_marginLeft="110dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15 file. 5 min ago"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="540dp"
+        android:layout_marginLeft="110dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg5"
+        android:layout_marginVertical="590dp"
+        android:layout_marginLeft="35dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Jesicca2"
+        android:layout_marginVertical="600dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send To Jesica"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="600dp"
+        android:layout_marginLeft="110dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8 file. 2 Day ago"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="625dp"
+        android:layout_marginLeft="110dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Home"
+        android:layout_marginVertical="670dp"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_icon"
+        android:layout_marginVertical="680dp"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginVertical="685dp"
+        android:layout_marginLeft="90dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_browser"
+        android:layout_marginVertical="680dp"
+        android:layout_marginLeft="220dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_person"
+        android:layout_marginVertical="680dp"
+        android:layout_marginLeft="300dp"/>
+
+
+
+
+
+</RelativeLayout>
